@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url('./flowers/jp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+#navbarNavDropdown ul li{
+    padding-left: 30px;
+    margin-left: 200px;
+   
+}
+#navbarNavDropdown ul li a{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: pink;
+    border-radius: 10px;
+}
+#navbarNavDropdown ul li a:hover{
+    background-color: rgb(250, 123, 191);
+}
+
+.welcome{
+    background: rgb(255, 192, 203,0.5);
+    margin-top: 60vh;
+    text-align: center;
+    font-weight: 700;
+    color: indianred;
+    padding: 50px;
+
+}
+.welcome span{
+    color: rgb(255, 1, 149);
+    font-size: 50px;
+}
+.welcome img{
+   
+    width: 400px;
+    min-height: 200px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.welcome img:hover{
+    transform: scale(1.1);
+    border: solid 4px pink;
+    
+}
+.feature{
+    margin-top: 100vh;
+    background: rgb(255, 192, 203,0.5);
+  }
+  
+  .feature .card {
+    width: 250px;
+    padding: 20px;
+    margin: 30px;
+  }
+  
+.angry{
+    margin-top: 100vh;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  form{
+    background: #fff;
+    width: 500px;
+    padding: 30px;
+    font-size: 18px;
+  }
+  .message-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+.message-icon i{
+    font-size: 40px;
+}
+.message-icon span{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+form input,textarea{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid pink;
+    outline: none;
+}
+#input-field{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+#input-field i{
+    font-size: 22px;
+    margin-right: 15px;
+}
+.send-btn{
+    width: 100px;
+    border: none;
+    background: black;
+    color: #fff;
+    font-size: 16px;
+    padding: 6px 0;
+    border-radius: 50px;
+}
+@media screen and (max-width: 768px){
+    #navbarNavDropdown ul li{
+        padding-left: 0;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    #navbarNavDropdown ul li a{
+        color: rgb(0, 0, 0);
+        font-weight: 700;
+        text-align: center;
+        border-radius: 10px;
+        background: pink;
+       
+    }
+
+    .welcome img{
+        margin-right: 30px;
+        width: 250px;
+        min-height: 50px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .respo td {
+        display: block;
+        width: 100%;
+      }
+
+      .respo th{
+        display: block;
+        width: 100%;
+      }
+    .respo{
+        margin: auto;
+        align-items: center;
+    }
+    .hero{
+        margin: auto;
+        width: 350px;
+
+    }
+}
+
+
